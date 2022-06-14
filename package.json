@@ -1,0 +1,22 @@
+{
+  "name": "supernova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "newrelic": "^8.14.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "k6": "^0.0.0"
+  }
+}
